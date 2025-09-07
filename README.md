@@ -1,0 +1,2 @@
+# Twitch-_Personalized_Twitch_Content_Recommendation_Engine
+2024年7月至9月期间，我开发了名为"Twitch+"的全栈个性化直播内容推荐系统，采用Spring Boot和React框架实现Twitch平台（直播、视频及片段）的实时搜索与个性化推荐功能。通过OpenFeign整合Twitch API获取实时数据，构建了用户注册/登录等RESTful接口，基于AWS RDS部署MySQL数据库并采用Spring Data JDBC持久化，使用Caffeine缓存优化性能，最终通过容器化技术部署至AWS App Runner实现高可用可扩展的服务交付。
